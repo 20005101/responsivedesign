@@ -211,107 +211,105 @@ Publish the website in the given URL.
 
 ## responsivepeople.html
 ```
-{% extends "design/responsivebase.html" %}
+<!doctype html>
+<html lang="en">
 
-{% block content %}
-<div class="row text-center">
-    <div class="col-12">
-        <p class="lead">Executive Officer's</p>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Responsive People Design</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1 class="display-3">STARK Private Limited</h1>
+            <h5 class="display-6">crew people</h5>
+        </div>
     </div>
-</div>
-    <div class='row text-center'>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/stark.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>TONY STARK</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            <b>President</b> <cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+    <div class="row text-center">
+        <div class="col-12">
+            <h5 class="display-6">Our Crew People</h5>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/stark.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">TONY STARK</h5>
+                <p class="card-text">President of a company</p>
+                <a href="https://en.wikipedia.org/wiki/Iron_Man" class="btn btn-primary">More Details</a>
             </div>
         </div>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/musk.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>ELON MUSK</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            <b>Cheif Executive Officer</b> <cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/musk.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">ELON MUSK</h5>
+                <p class="card-text">Cheif Executive Officer of a company</p>
+                <a href="https://en.wikipedia.org/wiki/Elon_Musk" class="btn btn-primary">More Details</a>
             </div>
         </div>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/steve.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>STEVE ROGERS</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            <b>Cheif Operating Officer</b> <cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/steve.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">STEVE ROGERS</h5>
+                <p class="card-text">Cheif Operating Officer of a company</p>
+                <a href="https://en.wikipedia.org/wiki/Steve_Rogers_(Marvel_Cinematic_Universe)" class="btn btn-primary">More Details</a>
             </div>
         </div>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/pichai.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>SUNDAR PICHAI</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            <b>Cheif Financial Officer</b> <cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/pichai.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">SUNDAR PICHAI</h5>
+                <p class="card-text">Cheif Financial Officer of a company</p>
+                <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" class="btn btn-primary">More Details</a>
             </div>
         </div>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/tanmay.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>TANMAY BAKSHI</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            <b>Cheif Legal Officer</b> <cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/tanmay.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">TANMAY BAKSHI</h5>
+                <p class="card-text">Cheif Legal Officer of a company</p>
+                <a href="https://www.ibm.com/blogs/client-voices/author/tanmay-bakshi/" class="btn btn-primary">More Details</a>
             </div>
         </div>
-        <div class="card col-12 col-mg-6 col-lg-4">
-            <div class="card">
-                <img class="card-img" src="/static/img/kathy.jpg" alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>KATHY LEUDERS</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                           <b>Cheif Marketing Officer</b><cite title="Source Title">of a company</cite>
-                        </small>
-                    </footer>
-                </blockquote>
+        <div class="card col-12 col-md-6 col-lg-3">
+            <img class="card-img-top" src="/static/img/kathy.jpg" alt="card image cap">
+            <div class="card-body">
+                <h5 class="card-title">KATHY LEUDERS</h5>
+                <p class="card-text">Cheif Marketing Officerof a company</p>
+                <a href="https://en.wikipedia.org/wiki/Kathy_Lueders" class="btn btn-primary">More Details</a>
             </div>
         </div>
     </div>
-    {% endblock  %}
+    <div class="row">
+        <div class="col-12">
+            <p>Copyright © 2021 STARK Private Limited, Developed by JAYASHREE RAO.</p>
+        </div>
+    </div>
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
 ```
 
 ## responsivecontactus.html
@@ -343,7 +341,7 @@ Publish the website in the given URL.
 ![output](./static/img/h3.png)
 ![output](./static/img/h4.png)
 ![output](./static/img/j1.png)
-![output](./static/img/j2.png)
+![output](./static/img/j4.png)
 ![output](./static/img/n1.png)
 ![output](./static/img/n2.png)
 ![output](./static/img/r1.png)
