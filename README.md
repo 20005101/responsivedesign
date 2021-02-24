@@ -61,7 +61,7 @@ Publish the website in the given URL.
     <div class="container">
         <div class="row align-items-end">
             <div class="col text-center">
-                Copyright © 2021 STARK Industries Limited, Developed by JAYASHREE RAO
+                Copyright © 2021 STARK Industries Limited, Developed by PRAVEEN
             </div>
         </div>
     </div>
@@ -290,7 +290,7 @@ Publish the website in the given URL.
     </div>
     <div class="row">
         <div class="col-12">
-            <p>Copyright © 2021 STARK Private Limited, Developed by JAYASHREE RAO.</p>
+            <p>Copyright © 2021 STARK Private Limited, Developed by PRAVEEN.</p>
         </div>
     </div>
    
@@ -351,4 +351,4 @@ Publish the website in the given URL.
 ![output](./static/img/r4.png)
 ## RESULT:
 Thus, a responsive website with two break points is designed and is hosted in the URL 
-http://jayashreerao.student.saveetha.in:8000/
+http://praveen.student.saveetha.in:8000/
